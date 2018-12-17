@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>arvamispeli</title>
+</head>
+<body>
+    <h1>Arvamismäng</h1>
+    <p>Arva ära number ühest sajani</p>
+    
+    <div class="form">
+        <label for="guessField">Sisesta number:</label>
+        <input type="number" min="1" max="100" class="guessField" id="guessField">
+        <input type="submit" value="Kontrolli" class="guessSubmit">
+    </div>
+   
+    <div class="results">
+        <p class="guesses"></p>
+        <p class="lastResult"></p>
+        <p class="lowOrHigh"></p>
+    </div>
+    
+    <script src="main.js"></script>
+</body>
+</html>
