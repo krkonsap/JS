@@ -6,12 +6,14 @@
 </head>
 <body>
     <h1>Arvamismäng</h1>
-    <p>Arva ära number ühest sajani</p>
+    <p>Arva ära number ühest sajani.</p>
     
     <div class="form">
         <label for="guessField">Sisesta number:</label>
         <input type="number" min="1" max="100" class="guessField" id="guessField">
         <input type="submit" value="Kontrolli" class="guessSubmit">
+        
+        <input type="submit" value="Reset" class="guessReset" onclick="resetimine()">
     </div>
    
     <div class="results">
