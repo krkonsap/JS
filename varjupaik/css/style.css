@@ -1,3 +1,4 @@
+
 /*NAVBAR*/
 .topnav {
     overflow: hidden;
@@ -55,3 +56,35 @@
 }
 
 /*NAVBAR*/
+
+/*HEADER*/
+#header {
+    overflow: hidden;
+    background: linear-gradient(rgba(255,255,255,.5), rgba(255,255,255,.5)), url('http://kristjankonsap.ikt.khk.ee/JS/varjupaik/img/headerpattern.jpg');
+    padding: 20px 10px;
+    color: #854747;
+    font-weight: bold;
+
+}
+#logo{
+    width: 5%;
+    float: left;
+    background-color: #A75A5A;
+    margin: 3px;
+    padding:2px;
+    border-radius: 10%;
+}
+
+.header h2{
+    font-size: 10%;
+}
+.headernr{
+
+}
+.headernr:hover{
+    color: #c00;
+    font-size: 30px;
+    transform: .5s;
+}
+
+/*HEADER*/
