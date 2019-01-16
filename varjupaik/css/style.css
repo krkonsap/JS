@@ -1,8 +1,11 @@
-
+body{
+    background-color: #fdf7f7;
+}
 /*NAVBAR*/
 .topnav {
     overflow: hidden;
     background-color: #E2A9A9;
+    opacity: 0.9;
 }
 
 .topnav a {
@@ -88,3 +91,15 @@
 }
 
 /*HEADER*/
+
+/*FOOTER*/
+.footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: #E2A9A9;
+    color: #955050;
+    text-align: center;
+}
+/*FOOTER*/
