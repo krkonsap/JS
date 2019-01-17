@@ -3,6 +3,10 @@ body{
 }
 /*NAVBAR*/
 .topnav {
+    left: 0;
+    top: 0;
+    /*position: fixed;*/
+    width: 100%;
     overflow: hidden;
     background-color: #E2A9A9;
     opacity: 0.9;
@@ -62,6 +66,7 @@ body{
 
 /*HEADER*/
 #header {
+    top: 31px;
     overflow: hidden;
     background: linear-gradient(rgba(255,255,255,.5), rgba(255,255,255,.5)), url('http://kristjankonsap.ikt.khk.ee/JS/varjupaik/img/headerpattern.jpg');
     padding: 20px 10px;
@@ -82,12 +87,10 @@ body{
     font-size: 10%;
 }
 .headernr{
-
+    font-size: 150%
 }
 .headernr:hover{
     color: #c00;
-    font-size: 30px;
-    transform: .5s;
 }
 
 /*HEADER*/
